@@ -1,0 +1,174 @@
+.cardsMainSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 100px 0;
+}
+
+.cardsContainerSec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardPlaceSec,
+.cardProductSec,
+.cardProgramSec,
+.cardPeopleSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 550px;
+  height: 297px;
+  margin: 12px;
+  padding: 20px 40px;
+  border: 1px solid #c8c8c8;
+  border-radius: 8px;
+}
+.cardPeopleSec:hover {
+  background-color: #8064a2;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.cardPlaceSec:hover {
+  background-color: #77933c;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.cardProductSec:hover {
+  background-color: #c0504d;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.cardProgramSec:hover {
+  background-color: #0096c8;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+
+.headBoxSec {
+  display: flex;
+  align-items: center;
+}
+
+.peopleIconSec {
+  position: relative;
+  top: 2px;
+  color: #8064a2;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.placeIconSec {
+  color: #77933c;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.productIconSec {
+  color: #c0504d;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.programIconSec {
+  color: #0096c8;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.cardPeopleSec:hover .peopleIconSec {
+  color: #ffffff !important;
+}
+.cardPlaceSec:hover .placeIconSec {
+  color: #ffffff;
+}
+.cardProductSec:hover .productIconSec {
+  color: #ffffff;
+}
+.cardProgramSec:hover .programIconSec {
+  color: #ffffff;
+}
+
+.titleSec {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.descSec {
+  margin: 15px 0;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.btnCardSec {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #8064a2;
+  color: #8064a2;
+  margin: 20px 0;
+  width: 122px;
+  padding: 9px 0;
+  height: 50px;
+}
+
+.btnCardSec:hover {
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 400px) {
+  .cardPlaceSec,
+  .cardProductSec,
+  .cardProgramSec,
+  .cardPeopleSec {
+    width: 300px;
+    height: 270px;
+    padding: 10px 20px;
+  }
+  .descSec {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .btnCardSec {
+    margin: 10px 0 20px 0;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 550px) {
+  .cardPlaceSec,
+  .cardProductSec,
+  .cardProgramSec,
+  .cardPeopleSec {
+    width: 360px;
+    height: 270px;
+    padding: 10px 20px;
+  }
+  .descSec {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .btnCardSec {
+    margin: 10px 0 20px 0;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 700px) {
+  .cardPlaceSec,
+  .cardProductSec,
+  .cardProgramSec,
+  .cardPeopleSec {
+    width: 460px;
+    height: 250px;
+    padding: 10px 20px;
+  }
+  .descSec {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    text-align: justify;
+  }
+  .btnCardSec {
+    margin: 10px 0 20px 0;
+  }
+}

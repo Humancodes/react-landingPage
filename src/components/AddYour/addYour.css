@@ -1,0 +1,56 @@
+.addCont {
+  background-color: #f7f5f9;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 12%;
+}
+
+.cardAddYour {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 100px 0;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border: 1px solid #c8c8c8;
+
+  border-radius: 8px;
+}
+
+.iconAdd {
+  color: #0096c8;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.desc {
+  margin: 15px 0;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.btnCardAdd {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #8064a2;
+  color: #8064a2;
+  margin: 20px 0;
+  width: 122px;
+  padding: 9px 0;
+  height: 50px;
+}
+
+.btnCardAdd:hover {
+  background-color: #8064a2;
+  color: #ffffff;
+}

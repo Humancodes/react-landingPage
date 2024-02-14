@@ -1,0 +1,258 @@
+/* NAVBAR CSS */
+
+.mainContainer {
+  display: flex;
+  background-color: #ffffff;
+  padding: 5px 0px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.logo:hover {
+  cursor: pointer;
+}
+
+.searchInput {
+  background-color: aliceblue;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 0px 5px 15px;
+  width: 250px;
+}
+
+.searchBtn {
+  border-radius: 0 8px 8px 0;
+  border: none;
+  background-color: #8064a2;
+  color: #ffffff;
+  padding: 6px 9px;
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.itemNew {
+  padding: 0 15px;
+}
+
+.iconAdd {
+  color: #0096c8;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  margin-left: 8px;
+}
+
+/* CARDS CSS */
+.cardsMainCont {
+  background-color: #f7f5f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 7% 0;
+}
+
+.cardsContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5%;
+}
+
+.cardPlace,
+.cardProduct,
+.cardProgram,
+.cardPeople {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.cardPeople {
+  border: 2px solid #8064a2;
+}
+.cardPlace {
+  border: 2px solid #77933c;
+}
+.cardProduct {
+  border: 2px solid #c0504d;
+}
+.cardProgram {
+  border: 2px solid #0096c8;
+}
+
+.cardPeople:hover {
+  background-color: #8064a2;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.cardPlace:hover {
+  background-color: #77933c;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.cardProduct:hover {
+  background-color: #c0504d;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.cardProgram:hover {
+  background-color: #0096c8;
+  color: #ffffff !important;
+  cursor: pointer;
+}
+
+.mainHeadBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.headBox {
+  display: flex;
+  align-items: center;
+}
+
+.peopleIcon {
+  position: relative;
+  top: 2px;
+  color: #8064a2;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.placeIcon {
+  color: #77933c;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.productIcon {
+  color: #c0504d;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.programIcon {
+  color: #0096c8;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.cardPeople:hover .peopleIcon {
+  color: #ffffff !important;
+}
+.cardPlace:hover .placeIcon {
+  color: #ffffff;
+}
+.cardProduct:hover .productIcon {
+  color: #ffffff;
+}
+.cardProgram:hover .programIcon {
+  color: #ffffff;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.desc {
+  margin: 15px 0;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.btnCard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #8064a2;
+  color: #8064a2;
+  margin: 20px 0;
+  width: 122px;
+  padding: 9px 0;
+  height: 50px;
+}
+
+.btnCard:hover {
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 650px) {
+  .cardPlace,
+  .cardProduct,
+  .cardProgram,
+  .cardPeople {
+    width: 360px;
+    height: 180px;
+    padding: 10px 20px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .searchBox {
+    display: none;
+  }
+  .itemNew {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 651px) and (max-width: 929px) {
+  .searchBox {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 930px) and (max-width: 1125px) {
+  .searchInput {
+    display: none;
+  }
+  .searchIcon {
+    width: 23px !important;
+    height: 23px !important;
+    /* margin: 0 100%; */
+    position: relative;
+    left: 50px;
+    padding-top: 2px;
+  }
+  .searchBtn {
+    border: none;
+    background-color: #ffffff;
+    color: #8064a2;
+    padding: 6px 9px;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .cardPlace,
+  .cardProduct,
+  .cardProgram,
+  .cardPeople {
+    width: 400px;
+    height: 200px;
+  }
+  .cardsMainCont {
+    padding: 5% 10px;
+  }
+  .cardsContainer {
+    margin: 0 15%;
+  }
+}

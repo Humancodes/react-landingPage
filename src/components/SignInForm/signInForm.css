@@ -1,0 +1,114 @@
+.signInFormCont {
+  width: 410px;
+  height: 430px;
+}
+.headingCont {
+  display: flex;
+  padding: 0px 0 10px 0;
+}
+
+.heading1 {
+  color: #8064a2;
+  font-size: 22px;
+  font-weight: 500;
+  margin-right: 8%;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #8064a2;
+}
+.heading2 {
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(176, 176, 176);
+}
+.blockBtn {
+  display: block;
+  width: 100%;
+  background-color: #ffffff;
+  height: 40px;
+  color: black;
+  border: 1px solid #8064a2;
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin: 20px 0;
+  font-size: 16px;
+}
+.icons {
+  position: relative;
+  float: left;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+}
+
+.connectBox {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.connectText {
+  font-weight: 600;
+}
+.userInputs {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: none;
+}
+
+.forgetPassBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.btnLogin {
+  display: block;
+  background-color: #ffffff;
+  border: 1px solid #8064a2;
+  border-radius: 8px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.btnLogin:hover {
+  background-color: #8064a2;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 490px) {
+  .signInFormCont {
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 490px) and (max-width: 650px) {
+  .signInFormCont {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 840px) {
+  .signInFormCont {
+    width: 350px;
+  }
+}
+
+@media screen and (min-width: 840px) and (max-width: 929px) {
+  .signInFormCont {
+    width: 350px;
+  }
+  /* .forgetPassBoxJ {
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+
+    padding: 10px 0;
+  } */
+}
+
+@media screen and (min-width: 930px) and (max-width: 1125px) {
+}

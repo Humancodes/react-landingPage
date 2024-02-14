@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+.heroContainerJ {
+  align-items: flex-end;
+  background-color: #f7f5f9;
+  justify-content: space-evenly;
+  display: flex;
+  padding-top: 120px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.boxContainerJ {
+  display: flex;
+  flex-direction: column;
+  width: 707px;
+  height: 578px;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+/* .textContainer{
+   
+} */
+
+.headingJ {
+  padding-bottom: 20px;
+  font-weight: 600;
+  font-size: 36px;
+}
+.subtextJ {
+  line-height: 2;
+  padding: 10px 0;
+  text-align: justify;
+}
+
+/* .imgContainer{
+   
+} */
+.imgHeroJ {
+  width: 100%;
+  object-fit: cover;
+}
+.formContainerJ {
+  display: flex;
+  align-items: flex-start;
+  height: 578px;
+}
+
+.descMob {
+  display: none;
+}
+
+.imgHeroMob {
+  display: none;
+}
+
+@media screen and (max-width: 840px) {
+  .boxContainerJ {
+    width: 300px;
+    height: 100%;
+  }
+
+  .imgContainerJ {
+    display: none;
+  }
+  .imgHeroMob {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  .formContainerJ {
+    margin: 10% 0;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .heroContainerJ {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .boxContainerJ {
+    margin: 10% 10%;
+    width: 300px;
+    height: 100%;
+  }
+  .headingJ {
+    font-size: 20px;
+  }
+  .subtextJ {
+    display: none;
+  }
+  .descMob {
+    display: block;
+    text-align: justify;
+  }
+  .imgContainerJ {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 490px) and (max-width: 650px) {
+  .heroContainerJ {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .boxContainerJ {
+    margin: 0 15%;
+    width: 450px;
+  }
+  .headingJ {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 650px) and (max-width: 840px) {
+  .heroContainerJ {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .boxContainerJ {
+    margin: 0 20%;
+    width: 580px;
+  }
+  .headingJ {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 840px) and (max-width: 929px) {
+  .heroContainerJ {
+    padding: 80px 5%;
+  }
+}
+
+@media screen and (min-width: 930px) and (max-width: 1125px) {
+  .heroContainerJ {
+    padding: 120px 5%;
+  }
+}
